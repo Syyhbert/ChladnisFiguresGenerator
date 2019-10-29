@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{489F87D5-EC73-4B45-85DE-5364C403CCF3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Chaldni_s_Figures_Generator</RootNamespace>
+    <AssemblyName>Chaldni%27s Figures Generator</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1033Hz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1033Hz.Designer.cs">
+      <DependentUpon>1033Hz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="1820Hz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1820Hz.Designer.cs">
+      <DependentUpon>1820Hz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2041Hz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2041Hz.Designer.cs">
+      <DependentUpon>2041Hz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3240Hz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3240Hz.Designer.cs">
+      <DependentUpon>3240Hz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="345Hz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="345Hz.Designer.cs">
+      <DependentUpon>345Hz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3835Hz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3835Hz.Designer.cs">
+      <DependentUpon>3835Hz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3975Hz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3975Hz.Designer.cs">
+      <DependentUpon>3975Hz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4129Hz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4129Hz.Designer.cs">
+      <DependentUpon>4129Hz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4173Hz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4173Hz.Designer.cs">
+      <DependentUpon>4173Hz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4221Hz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4221Hz.Designer.cs">
+      <DependentUpon>4221Hz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4444Hz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4444Hz.Designer.cs">
+      <DependentUpon>4444Hz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4671Hz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4671Hz.Designer.cs">
+      <DependentUpon>4671Hz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4840Hz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4840Hz.Designer.cs">
+      <DependentUpon>4840Hz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5201Hz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5201Hz.Designer.cs">
+      <DependentUpon>5201Hz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainCode.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="1033Hz.resx">
+      <DependentUpon>1033Hz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1820Hz.resx">
+      <DependentUpon>1820Hz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2041Hz.resx">
+      <DependentUpon>2041Hz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3240Hz.resx">
+      <DependentUpon>3240Hz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="345Hz.resx">
+      <DependentUpon>345Hz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3835Hz.resx">
+      <DependentUpon>3835Hz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3975Hz.resx">
+      <DependentUpon>3975Hz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4129Hz.resx">
+      <DependentUpon>4129Hz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4173Hz.resx">
+      <DependentUpon>4173Hz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4221Hz.resx">
+      <DependentUpon>4221Hz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4444Hz.resx">
+      <DependentUpon>4444Hz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4671Hz.resx">
+      <DependentUpon>4671Hz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4840Hz.resx">
+      <DependentUpon>4840Hz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5201Hz.resx">
+      <DependentUpon>5201Hz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\300px-Chladini.Diagrams.for.Quadratic.Plates.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15-Presentation-Background-Examples33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\994_example.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\95fae31f2f220dcb2c42fd2aae1aad35.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36501469562_d783356518_o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35861583583_e06ab8bd83_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\345.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1033.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1820.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2041.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3835.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3975.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4129.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4173hz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4221hz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4444hz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4671.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4840Hz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5201Hz.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

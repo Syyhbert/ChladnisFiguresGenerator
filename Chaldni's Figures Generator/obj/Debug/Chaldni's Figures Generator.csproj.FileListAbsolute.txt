@@ -1,0 +1,23 @@
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\bin\Debug\Chaldni's Figures Generator.exe.config
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\bin\Debug\Chaldni's Figures Generator.exe
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\bin\Debug\Chaldni's Figures Generator.pdb
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni's Figures Generator.csprojAssemblyReference.cache
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni_s_Figures_Generator.MenuPrincipal.resources
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni_s_Figures_Generator.Properties.Resources.resources
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni's Figures Generator.csproj.GenerateResource.cache
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni's Figures Generator.exe
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni's Figures Generator.pdb
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni_s_Figures_Generator._345Hz.resources
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni_s_Figures_Generator._1033Hz.resources
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni_s_Figures_Generator._1820Hz.resources
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni_s_Figures_Generator._2041Hz.resources
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni_s_Figures_Generator._3240Hz.resources
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni_s_Figures_Generator._3835Hz.resources
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni_s_Figures_Generator._3975Hz.resources
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni_s_Figures_Generator._4129Hz.resources
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni_s_Figures_Generator._4173Hz.resources
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni_s_Figures_Generator._4221Hz.resources
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni_s_Figures_Generator._4444Hz.resources
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni_s_Figures_Generator._4671Hz.resources
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni_s_Figures_Generator._4840Hz.resources
+C:\Users\Galdamez\Documents\Proyecto Física - Chaldni's Figures\Chaldni's Figures Generator\Chaldni's Figures Generator\obj\Debug\Chaldni_s_Figures_Generator._5201Hz.resources
