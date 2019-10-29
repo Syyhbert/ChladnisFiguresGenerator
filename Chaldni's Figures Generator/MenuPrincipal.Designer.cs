@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.FontPrincipal = new System.Windows.Forms.Panel();
+            this.Minimizar = new System.Windows.Forms.Label();
+            this.BotonSalir = new System.Windows.Forms.Label();
             this.NombreBarra = new System.Windows.Forms.Label();
             this.PanelFrecuencias = new System.Windows.Forms.Panel();
             this.Cinco201 = new System.Windows.Forms.Button();
@@ -48,8 +50,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.ImagenCentral = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.BotonSalir = new System.Windows.Forms.Label();
-            this.Minimizar = new System.Windows.Forms.Label();
             this.FontPrincipal.SuspendLayout();
             this.PanelFrecuencias.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ImagenCentral)).BeginInit();
@@ -66,6 +66,30 @@
             this.FontPrincipal.Name = "FontPrincipal";
             this.FontPrincipal.Size = new System.Drawing.Size(627, 23);
             this.FontPrincipal.TabIndex = 1;
+            // 
+            // Minimizar
+            // 
+            this.Minimizar.AutoSize = true;
+            this.Minimizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Minimizar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Minimizar.Location = new System.Drawing.Point(576, 0);
+            this.Minimizar.Name = "Minimizar";
+            this.Minimizar.Size = new System.Drawing.Size(19, 25);
+            this.Minimizar.TabIndex = 2;
+            this.Minimizar.Text = "-";
+            this.Minimizar.Click += new System.EventHandler(this.Minimizar_Click);
+            // 
+            // BotonSalir
+            // 
+            this.BotonSalir.AutoSize = true;
+            this.BotonSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BotonSalir.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BotonSalir.Location = new System.Drawing.Point(601, -2);
+            this.BotonSalir.Name = "BotonSalir";
+            this.BotonSalir.Size = new System.Drawing.Size(23, 25);
+            this.BotonSalir.TabIndex = 1;
+            this.BotonSalir.Text = "x";
+            this.BotonSalir.Click += new System.EventHandler(this.BotonSalir_Click);
             // 
             // NombreBarra
             // 
@@ -246,9 +270,9 @@
             this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(35, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(209, 23);
+            this.label1.Size = new System.Drawing.Size(190, 23);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Frecuencias Disponibles";
+            this.label1.Text = "Frequencies Available";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // ImagenCentral
@@ -271,30 +295,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
-            // 
-            // BotonSalir
-            // 
-            this.BotonSalir.AutoSize = true;
-            this.BotonSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotonSalir.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BotonSalir.Location = new System.Drawing.Point(601, -2);
-            this.BotonSalir.Name = "BotonSalir";
-            this.BotonSalir.Size = new System.Drawing.Size(23, 25);
-            this.BotonSalir.TabIndex = 1;
-            this.BotonSalir.Text = "x";
-            this.BotonSalir.Click += new System.EventHandler(this.BotonSalir_Click);
-            // 
-            // Minimizar
-            // 
-            this.Minimizar.AutoSize = true;
-            this.Minimizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Minimizar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Minimizar.Location = new System.Drawing.Point(576, 0);
-            this.Minimizar.Name = "Minimizar";
-            this.Minimizar.Size = new System.Drawing.Size(19, 25);
-            this.Minimizar.TabIndex = 2;
-            this.Minimizar.Text = "-";
-            this.Minimizar.Click += new System.EventHandler(this.Minimizar_Click);
             // 
             // MenuPrincipal
             // 
