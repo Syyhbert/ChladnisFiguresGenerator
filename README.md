@@ -1,1 +1,1 @@
-# ChladnisFiguresGenerator
+# Chladni's Figures Generator
