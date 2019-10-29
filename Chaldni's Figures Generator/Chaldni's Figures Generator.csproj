@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>27d6026028c19caf964451ba5eee0aea_icono_de_trazo_coloreado_de_frecuencia_card__aca_by_vexels_Gxd_icon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -265,6 +268,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\5201Hz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="27d6026028c19caf964451ba5eee0aea_icono_de_trazo_coloreado_de_frecuencia_card__aca_by_vexels_Gxd_icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
